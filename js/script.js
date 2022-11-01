@@ -24,14 +24,14 @@
         for (let i = 0; i < anchorElements.length; i++){
             anchorElements[i].classList.remove('top-bar-scroll');
         }
-        logo.setAttribute('src', "../img/The Akashic Records Logo White.png");
+        logo.setAttribute('src', "./img/The Akashic Records Logo White.png");
     } 
     else {
         navbar.classList.add('navbarBg');
         for (let i = 0; i < anchorElements.length; i++){
             anchorElements[i].classList.add('top-bar-scroll');
         }
-        logo.setAttribute('src', "../img/The Akashic Records Logo Black Cropped.png");
+        logo.setAttribute('src', "../theakashicrecords/img/The Akashic Records Logo Black Cropped.png");
     }
 }
 
