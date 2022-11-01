@@ -31,7 +31,7 @@
         for (let i = 0; i < anchorElements.length; i++){
             anchorElements[i].classList.add('top-bar-scroll');
         }
-        logo.setAttribute('src', "../theakashicrecords/img/The Akashic Records Logo Black Cropped.png");
+        logo.setAttribute('src', "./img/The Akashic Records Logo Black Cropped.png");
     }
 }
 
