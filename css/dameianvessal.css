@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0px;
+    background-color: black;
+}
+
+.about img {
+    width: 40;
+    filter: grayscale();
+    padding-right: 50px;
+}
+
+.bio {
+    width: 75%;
+    
+}
+
+.image {
+    width: 1130px;
+    max-width: 95%;
+    margin: 50px auto 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.bio h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.bio p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+/* button {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+} */
+
+.back-button button {
+    margin-left: 50px;
+    padding: 13px 30px;
+    background: transparent;
+    color: white;
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 20px;
+    border: none;
+    transition: .4s;
+}
+
+.back-button button:hover {
+    margin-left: 50px;
+    background: transparent;
+    color: white;
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.fa {
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram, .fa-twitter {
+    background: black;
+    color: white;
+}
